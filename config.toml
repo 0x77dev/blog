@@ -22,7 +22,7 @@ paginate = 5
   fullWidthTheme = false
 
   # center theme true default width
-  centerTheme = false
+  centerTheme = true
 
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
@@ -52,11 +52,11 @@ paginate = 5
     owner = "Mikhail Marynenko <0x77dev@protonmail.com>"
     keywords = "blog, 0x77dev, IT, dev, developing, cybersecurity, nodejs, graphql, protocols, sdr"
     copyright = "Mikhail Marynenko"
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+    menuMore = "Показать больше"
+    readMore = "Читать больше"
+    readOtherPosts = "Другие посты"
+    missingContentMessage = "страница не найдена..."
+    missingBackButtonLabel = "Вернутся домой"
 
     [languages.en.params.logo]
       logoText = "0x77dev blog"
