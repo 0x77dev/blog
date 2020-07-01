@@ -10,7 +10,7 @@ paginate = 5
   contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  themeColor = "blue"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
@@ -21,7 +21,7 @@ paginate = 5
   # set theme to full screen width
   fullWidthTheme = false
 
-  # center theme with default width
+  # center theme true default width
   centerTheme = false
 
   # set a custom favicon (default is a `themeColor` square)
@@ -59,15 +59,11 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "0x77dev blog"
       logoHomeLink = "/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "website"
+        name = "Website"
+        url = "https://0x77.page"
