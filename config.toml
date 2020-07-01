@@ -42,7 +42,12 @@ paginate = 5
 [params.twitter]
   creator = "Mikhail Marynenko"
   site = "https://0x77.page"
-
+ 
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
+  
 [languages]
   [languages.ru]
     languageName = "Русский"
