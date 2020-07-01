@@ -67,3 +67,7 @@ paginate = 5
         identifier = "website"
         name = "Website"
         url = "https://0x77.page"
+      [[languages.en.menu.main]]
+        identifier = "runspace"
+        name = "Runspace"
+        url = "/runspace"
