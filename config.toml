@@ -1,7 +1,8 @@
 baseURL = "https://blog.0x77.page"
-languageCode = "en-us"
+languageCode = "ru-ru"
 title = "0x77dev blog"
 theme = "terminal"
+defaultContentLanguage = "ru"
 paginate = 5
 
 [params]
@@ -29,26 +30,24 @@ paginate = 5
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+  showLastUpdated = true
+  enableGitInfo = true
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
+  updatedDatePrefix = "Последнее обновление"
 
   # set all headings to their default size (depending on browser settings)
   # it's set to `true` by default
-  # oneHeadingSize = false
+  oneHeadingSize = true
 
 [params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
   creator = "Mikhail Marynenko"
   site = "https://0x77.page"
 
 [languages]
-  [languages.en]
-    languageName = "English"
+  [languages.ru]
+    languageName = "Русский"
     title = "0x77dev blog"
-    subtitle = "Mikahil Marynenko blog"
+    subtitle = "Mikhail Marynenko blog"
     owner = "Mikhail Marynenko <0x77dev@protonmail.com>"
     keywords = "blog, 0x77dev, IT, dev, developing, cybersecurity, nodejs, graphql, protocols, sdr"
     copyright = "Mikhail Marynenko"
@@ -58,16 +57,16 @@ paginate = 5
     missingContentMessage = "страница не найдена..."
     missingBackButtonLabel = "Вернутся домой"
 
-    [languages.en.params.logo]
+    [languages.ru.params.logo]
       logoText = "0x77dev blog"
       logoHomeLink = "/"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
+    [languages.ru.menu]
+      [[languages.ru.menu.main]]
         identifier = "website"
-        name = "Website"
+        name = "Мой сайтик"
         url = "https://0x77.page"
-      [[languages.en.menu.main]]
+      [[languages.ru.menu.main]]
         identifier = "runspace"
-        name = "Runspace"
-        url = "/runspace"
+        name = "Любимчик среди моих проектов: Runspace"
+        url = "https://runspace.0x77.page"
