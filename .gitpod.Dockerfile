@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full
 
-RUN sudo apt-get install hugo
+RUN sudo apt-get install hugo -y
