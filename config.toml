@@ -14,7 +14,7 @@ paginate = 5
   themeColor = "blue"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 5
 
   # show selector to switch language
   showLanguageSelector = false
@@ -72,6 +72,10 @@ paginate = 5
         name = "Мой сайтик"
         url = "https://0x77.page"
       [[languages.ru.menu.main]]
-        identifier = "runspace"
-        name = "Любимчик среди моих проектов: Runspace"
-        url = "https://runspace.0x77.page"
+        identifier = "github"
+        name = "Мой GitHub"
+        url = "https://github.com/0x77dev"
+      [[languages.ru.menu.main]]
+        identifier = "instagram"
+        name = "Мой Instagram"
+        url = "https://instagram.com/0x77dev"
